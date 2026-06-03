@@ -402,7 +402,7 @@ header h6 + p {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 7 Free';
     font-weight: 400; }
   .icon > .label {
     display: none; }
@@ -411,7 +411,7 @@ header h6 + p {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands'; }
+    font-family: 'Font Awesome 7 Brands'; }
 
 /* List */
 ol {
@@ -442,6 +442,8 @@ ul.icons {
       font-size: 1.25em; }
     ul.icons li a {
       color: inherit; }
+	ul.icons li i {
+    	font-size: 1.25em; }
 
 /* Form */
 form {
