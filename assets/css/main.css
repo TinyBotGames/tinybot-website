@@ -444,6 +444,8 @@ ul.icons {
       color: inherit; }
 	ul.icons li i {
     	font-size: 1.25em; }
+	ul.icons li .fa-bluesky {
+    	font-size: 0.85em; }
 
 /* Form */
 form {
