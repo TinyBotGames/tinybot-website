@@ -36,13 +36,14 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bg01.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/totem_screenshot_cinematic_1.png': 'center',
+							'images/totem_screenshot_noUI_2.png': 'center',
+							'totem_screenshot_noUI_3.png': 'center',
+							'totem_screenshot_noUI_4.png': 'center'
 						},
 
 					// Delay.
-						delay: 6000
+						delay: 10000
 
 				};
 
