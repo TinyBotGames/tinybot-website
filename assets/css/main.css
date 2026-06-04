@@ -871,7 +871,7 @@ button,
     margin-bottom: 0; }
   @media screen and (max-width: 1680px) {
     #footer {
-      bottom: 3.5em;
+      bottom: 2em;
       left: 3.5em; } }
   @media screen and (max-width: 736px) {
     #footer {
