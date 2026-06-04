@@ -470,7 +470,7 @@ form {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: 'Font Awesome 7 Free';
       font-weight: 900; }
     form .message:before {
       margin-right: 0.5em; }
@@ -869,34 +869,16 @@ button,
     opacity: 1; }
   #footer > :last-child {
     margin-bottom: 0; }
-  @media screen and (max-width: 1680px) {
-    #footer {
-      bottom: 3.5em;
-      left: 3.5em; } }
-  @media screen and (max-width: 736px) {
-    #footer {
-      bottom: 2em;
-      left: 2em; } }
-  @media screen and (max-width: 360px) {
-    #footer {
-      bottom: 1.25em;
-      left: 1.25em; } }
-  @media screen and (max-height: 640px) {
-    #footer {
-      bottom: auto;
-      left: auto;
-      margin: 1em 0 0 0;
-      position: relative; } }
 
 /* Bottom Bar */
 .bottom-bar {
     position: fixed;
     bottom: 4em;
     left: 4em;
-    right: 20px;
     display: flex;
+	flex-direction: row;
     align-items: center;
-    justify-content: flex-start; }
+    gap: 1.5em; }
 
 @media screen and (max-width: 1680px) {
     .bottom-bar {
