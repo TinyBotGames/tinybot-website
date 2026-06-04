@@ -887,3 +887,6 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+@media screen and (max-width: 320px) {
+    #header img {
+        max-width: 200px; } }
